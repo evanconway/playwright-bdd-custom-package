@@ -1,0 +1,14 @@
+{
+  "name": "working-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "bddgen && playwright test"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "playwright-bdd": "^7.2.2"
+  }
+}
