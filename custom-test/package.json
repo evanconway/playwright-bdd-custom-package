@@ -5,10 +5,14 @@
   "scripts": {
     "build": "tsc && npm pack"
   },
+  "bin": {
+    "custom-test-start": "dist/run.js"
+  },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/node": "^22.2.0",
     "typescript": "^5.5.4"
   },
   "dependencies": {
