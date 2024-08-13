@@ -1,0 +1,14 @@
+{
+  "name": "use-custom-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright install && bddgen && playwright test"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "custom-test": "file:../custom-test/custom-test-1.0.0.tgz"
+  }
+}
