@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "prepare": "cd ../custom-test && npm i && npm run build && cd ../use-custom-test && npm i ../custom-test/custom-test-1.0.0.tgz",
     "test": "custom-test-start"
   },
   "author": "",
