@@ -2,6 +2,7 @@
   "name": "use-custom-test",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "playwright install && bddgen && playwright test"
   },

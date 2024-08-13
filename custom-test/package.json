@@ -1,9 +1,9 @@
 {
   "name": "custom-test",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "npm pack"
+    "build": "tsc && npm pack"
   },
   "author": "",
   "license": "ISC",
